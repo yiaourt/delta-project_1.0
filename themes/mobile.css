@@ -1,0 +1,128 @@
+
+
+/* MEDIA QUERIE format mobile */
+
+@media (max-width: 1000px) {
+
+a{
+    outline: none;
+}
+
+/* le logo */
+.logo
+{
+    display: none;
+}
+
+#menunavigation
+{
+    display: none;
+}
+
+#window{
+    display: none;
+}
+
+fieldset{
+
+    display: none;
+}
+
+/* Le navigateur */
+nav{
+    display: none;
+}
+
+#nav_barre_top{
+    visibility: hidden;
+}
+
+#nav_barre_top_mobile{
+    display: initial;
+
+}
+
+#logo_mobile{
+    display: initial;
+
+    width: 2em;
+}
+
+#titre_mobile{
+    display: initial;
+}
+
+#menu_mobile{
+    display: initial;
+}
+
+#logodelta_theme{
+    display: none;
+}
+
+#titre_delta_theme{
+    display: none;
+}
+
+#theme_menu{
+    display: none;
+}
+
+#icone_sticky{
+    display: none;
+}
+
+#connexion_sticky{
+    display: none;
+}
+
+/* On affiche ensuite le bouton qui ouvrira le menu de navigation du site */
+#menu_mobile{
+    display: inline;
+}
+/* ainsi que la liste des liens de navigation*/
+#liste_mobile{
+    
+}
+
+    #borderbutton{
+        font-size: 20px;
+    }
+
+    #borderbutton:hover{
+        font-size: 20px;
+    }
+    
+    img{
+        width: 60%;
+    }
+        
+
+    /* Le forum */
+
+    li#aff_forum{
+        
+    }
+
+    #flex1user{
+        width: 50px;
+        height: 50px;
+    }
+
+    #flex6topic{
+
+        width: auto;
+        background-color: white;
+        color: black;
+    }
+}
+
+/* MEDIA QUERIE format ordinateur 1920 */
+
+@media (min-width: 1900px) {
+    ul#nav{
+        display: inline;
+        position: absolute;
+        top:90;left: 600px;
+    }
+}
